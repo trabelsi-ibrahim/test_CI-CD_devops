@@ -5,7 +5,7 @@
 
 ![2_repo](https://github.com/trabelsi-ibrahim/test_CI-CD_devops/assets/121525548/b7097d63-8a90-4549-a3e2-4adf6160d073)
 
-• Initialisez un dépôt Git local sur votre ordinateur et connectez-le à votredépôt GitHub.
+• Initialisez un dépôt Git local sur votre ordinateur et connectez-le à votre dépôt GitHub.
 ![image](https://github.com/trabelsi-ibrahim/test_CI-CD_devops/assets/121525548/c7224340-d80e-40eb-abd4-de88eb5d2b5d)
 ```
 git init
@@ -169,3 +169,17 @@ public class CalculatriceTest {
 - Poussez les modifications validées vers votre dépôt GitHub.
 
   ![image](https://github.com/trabelsi-ibrahim/test_CI-CD_devops/assets/121525548/e49ed15f-1de0-4118-9843-74d97748d62d)
+![image](https://github.com/trabelsi-ibrahim/test_CI-CD_devops/assets/121525548/78aff333-96a2-4879-bce8-5e3784500cd5)
+
+```
+git pull origin master --allow-unrelated-histories
+
+```
+
+## 7. Surveiller et affiner :
+- Observez l'exécution de votre pipeline CI/CD dans l'onglet GitHub Actions.
+- Analysez les résultats des tests pour identifier et corriger tout problème.
+- Améliorez continuellement le code de votre application, les tests et le pipeline CI/CD.
+![image](https://github.com/trabelsi-ibrahim/test_CI-CD_devops/assets/121525548/2271f50f-c022-4da9-80e8-2a5c94ae1962)
+![image](https://github.com/trabelsi-ibrahim/test_CI-CD_devops/assets/121525548/54fc70ad-17ae-410d-be98-23b4af0c0373)
+
