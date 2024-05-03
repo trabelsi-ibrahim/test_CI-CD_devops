@@ -22,13 +22,11 @@ jobs:
           server-password: ${{ secrets.GITHUB_TOKEN }}
           overwrite-settings: true
 
-     
       - name: Build project
-        run: javac -cp .:junit-platform-console-standalone.jar src/*.java
+        run: javac -cp .;junit-platform-console-standalone.jar src/*.java
 
       - name: Search for JAR file
-  run: dir /s /b junit-platform-console-standalone.jar
-
+        run: dir /s /b junit-platform-console-standalone.jar
 
       - name: Run tests
         run: java -jar junit-platform-console-standalone.jar --class-path . --scan-class-path
