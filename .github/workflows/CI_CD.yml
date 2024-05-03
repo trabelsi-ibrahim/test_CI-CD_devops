@@ -31,4 +31,4 @@ jobs:
 
 
       #- name: Run tests
-       # run: java -jar junit-platform-console-standalone.jar --class-path . --scan-class-path
+      #  run: java -jar junit-platform-console-standalone.jar --class-path . --scan-class-path
