@@ -26,8 +26,8 @@ jobs:
       - name: Build project
         run: javac -cp .:junit-platform-console-standalone.jar src/*.java
 
-      - name: Search for JAR file
-        run: dir /s /b junit-platform-console-standalone.jar
+      #- name: Search for JAR file
+        #run: dir /s /b junit-platform-console-standalone.jar
 
 
       #- name: Run tests
